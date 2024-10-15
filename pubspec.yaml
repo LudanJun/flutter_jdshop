@@ -1,14 +1,18 @@
 name: flutter_jdshop
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.4 <4.0.0'
+  sdk: ">=3.3.4 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_swiper_null_safety: ^1.0.2
+  flutter_screenutil: ^5.9.3 #屏幕适配
+  fluttertoast: ^8.2.2 #吐司小组件
 
 dev_dependencies:
   flutter_test:
